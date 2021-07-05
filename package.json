@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "scripts": {
     "start": "webpack-cli serve --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist/"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
