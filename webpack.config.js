@@ -20,6 +20,11 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.css$/,
+        exclude: /(node_modules|bower_components)/,
+        use: ['style-loader', 'css-loader'],
+      }
     ],
   },
   plugins: [
