@@ -2,10 +2,22 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/main.js',
+  entry: {
+    jquery: [
+      'jquery'
+    ],
+    popper: [
+      'popper.js'
+    ],
+    bootstrap: [
+      'bootstrap',
+      'bootstrap/dist/css/bootstrap.min.css'
+    ],
+    main: ['./src/main.js', './styles/main.css']
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: '[name].js',
   },
   devtool: 'source-map',
   module: {
