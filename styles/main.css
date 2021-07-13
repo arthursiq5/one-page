@@ -23,5 +23,14 @@
 
 /* serviços */
 .bg-servicos {
+    background: linear-gradient(131.26deg, #312d45 30%, #ff3859 100%);
+}
 
+.underline {
+    content: '';
+    border-top: 2px solid #ff3859;
+    width: 70px;
+    display: block;
+    margin-bottom: 8px;
+    margin: 0 auto;
 }
