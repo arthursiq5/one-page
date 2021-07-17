@@ -43,11 +43,11 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
-        type: 'asset',
         loader: 'file-loader',
         options: {
           context: 'project',
           name: '[path][name].[ext]',
+          publicPath: '/'
       }
       },
     ],

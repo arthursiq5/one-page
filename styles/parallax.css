@@ -1,3 +1,8 @@
+.bg-parallax {
+    background: url(../img/bg.jpg) fixed;
+    position: relative;
+}
+
 .fatos {
     text-align: center;
     color: #fff;
