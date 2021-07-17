@@ -9,12 +9,6 @@ module.exports = {
     popper: [
       'popper.js'
     ],
-    bootstrapcss: [
-      'bootstrap/dist/css/bootstrap.min.css'
-    ],
-    bootstrapjs: [
-      'bootstrap',
-    ],
     main: [
       './src/main.js', './styles/main.css'
     ],
