@@ -15,7 +15,10 @@ module.exports = {
     bootstrapjs: [
       'bootstrap',
     ],
-    main: ['./src/main.js', './styles/main.css']
+    main: [
+      './src/main.js', './styles/main.css'
+    ],
+    parallaxcss: ['./styles/parallax.css']
   },
   output: {
     path: path.resolve(__dirname, 'dist'),

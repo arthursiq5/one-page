@@ -27,32 +27,6 @@
     background: linear-gradient(131.26deg, #312d45 30%, #ff3859 100%);
 }
 
-/* parallax */
-.fatos {
-    text-align: center;
-    color: #fff;
-}
-
-.fatos .icon i {
-    font-size: 50px;
-    color: #fff;
-}
-
-.fatos h3 {
-    font-size: 35px;
-    color: #fff;
-    margin-bottom: 5px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.fatos h4 {
-    font-size: 20px;
-    font-weight: 400;
-    color: #fff;
-    letter-spacing: 1px;
-}
-
 /* configurações gerais */
 .underline {
     content: '';
